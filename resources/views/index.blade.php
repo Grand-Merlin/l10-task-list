@@ -3,7 +3,8 @@
 @section('content')
 <nav class="mb-4">
     {{-- lien pour naviger vers la page de creation de tache --}}
-    <a href="{{ route('tasks.create')}}" class="font-medium text-gray-700 underline decoration-pink-500">Add Task :)</a>
+    <a href="{{ route('tasks.create')}}" 
+       class="font-medium text-gray-700 underline decoration-pink-500">Add Task :)</a>
 </nav>
     {{-- @if (count($tasks))
         <div>Il y a des tache</div>
